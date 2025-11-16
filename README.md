@@ -1,12 +1,32 @@
-# React + Vite
+✅ Sort (সোর্ট)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sort মানে ডাটা কোনো নির্দিষ্ট ক্রমে সাজানো।
+যেমন:
 
-Currently, two official plugins are available:
+দামে কম থেকে বেশি
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+তারিখে নতুন থেকে পুরোনো
 
-## Expanding the ESLint configuration
+নাম A → Z
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Page (পেজ)
+
+Page মানে একটা নির্দিষ্ট পৃষ্ঠায় থাকা ডাটা সেট।
+যেমন: Page 1, Page 2 — প্রতিটা পেজে কিছু নির্দিষ্ট আইটেম দেখানো হয়।
+
+✅ Pages (মোট কতগুলো পেজ)
+
+Pages মানে মোট কয়টা পেজ হবে, সব ডাটা ভাগ করে দেখানোর পর।
+যেমন: মোট 100 ডাটা, প্রতি পেজে 10 করে দেখালে → 10 Pages হবে।
+
+✅ Search (সার্চ)
+
+Search মানে কোনো কীওয়ার্ড দিয়ে নির্দিষ্ট ডাটা খুঁজে পাওয়া।
+যেমন: Product name, user name, email, category দিয়ে ফিল্টার করা।
+
+🎯 Short Summary in One Line
+
+Sort = ডাটা সাজানো
+Page = যে পেজে আছো
+Pages = মোট কয়টা পেজ
+Search = ডাটা খুঁজে পাওয়া
